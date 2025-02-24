@@ -34,9 +34,7 @@ function timer() {
 
   start.onclick  = tim
   reset.onclick = function () {
-    s = 0;
-    m = 0;
-    h =0
+   location.relaod();
   }
 }
 
